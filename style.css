@@ -5,6 +5,32 @@ body {
 }
 
 /* this is banner */
+nav{
+    width: 1170px;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.nav-title{
+
+color: #131318;
+font-size: 36px;
+}
+nav > ul {
+    display: flex;
+    align-items: center;
+}
+nav  li {
+    list-style: none;
+    margin-right: 50px;
+}
+nav a {
+    text-decoration: none;
+    color: #424247 ;
+}
 .banner-content {
     background-image: url("./Images/Group\ 13\ \(1\)\ \(1\).png");
     width: 1170px;
@@ -138,6 +164,113 @@ font-size: 40px;
     color: #131318;
 font-size: 16px;
 }
+.Newsletter{
+    max-width: 1170px;
+    margin: 80px auto;
+}
+.Newsletter-mother{
+    display: flex;
+    justify-content: space-between;
+}
+.Newsletter-baby{
+width: 474px;
+height: 422px;
+border-radius: 16px;
+border: 1px solid #FF5400;
+}
+.Newsletter-header{
+    display: flex;
+    color: #131318;
+font-size: 24px;
+justify-content: center;
+
+}
+.Newsletter-para{
+    display: flex;
+    color: #5A5A5D;
+font-size: 16px;
+justify-content: center;
+
+}
+.input-head{
+    width: 393px;
+height: 1px;
+background: rgba(19, 19, 24, 0.10);
+margin: 10px;
+}
+.name{
+    width: 393px;
+height: 52px;
+
+border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+margin: 10px;
+
+
+}
+.email{
+
+  width: 393px;
+height: 52px;
+
+border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+margin: 10px;
+}
+.sub{
+    width: 393px;
+height: 52px;
+border-radius: 8px;
+background: #FF5400;
+color: #FFF;
+margin: 10px;
+}
+.pic{
+    width: 672px;
+height: 422px;
+border-radius: 16px;
+}
+.save{
+    width: 324px;
+height: 110px;
+border-radius: 16px;
+background: #FF5400;
+color: #FFF;
+padding: 10px;
+text-align: center;
+position: relative;
+left: 320px;
+bottom: 180px;
+transform: rotate(-19.628deg);
+
+
+}
+footer{
+    max-width: 1170px;
+    height: 400px;
+    margin: 0 auto;
+background: rgba(19, 19, 24, 0.05);
+text-align: center;
+justify-content: center;
+}
+.travel-header{
+    color: var(--Dark-01, #131318);
+font-size: 32px;
+padding-top: 110px;
+}
+#group{
+    position: relative;
+    top: 18px;
+    
+}
+.Rights{
+    width: 872px;
+height: 1px;
+background: rgba(19, 19, 24, 0.10);
+margin-left: 60px;
+}
+
+
 
 
 
