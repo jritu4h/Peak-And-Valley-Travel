@@ -1,0 +1,161 @@
+body {
+    font-family: 'Mulish', sans-serif;
+    margin: 0px auto;
+
+}
+
+/* this is banner */
+.banner-content {
+    background-image: url("./Images/Group\ 13\ \(1\)\ \(1\).png");
+    width: 1170px;
+height: 500px;
+border-radius: 16px;
+margin: 0 auto;
+    
+    
+}
+
+.title {
+    color: #FFF;
+    font-size: 64px;
+
+    font-weight: 800;
+    text-align: center;
+    padding-top: 106px;
+}
+
+.para {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding-top: 64px;
+}
+
+#where-go {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    font-size: 16px;
+    color: rgba(19, 19, 24, 0.50);
+    text-align: center;
+}
+
+#when {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    text-align: center;
+}
+
+#type {
+    width: 174px;
+    height: 52px;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    background-color: #FFF;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.yellow {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    text-align: center;
+    color: #FFF;
+}
+.popular{
+    max-width: 1170px;
+    max-height: 500px;
+    margin: 70px auto;
+}
+
+.popular-class{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+.popular-header{
+    color: #131318;
+font-size: 40px;
+font-weight: 800;
+}
+.popular-para{
+    color: rgba(19, 19, 24, 0.70);
+font-size: 16px;
+font-weight: 400;
+}
+.img-class{
+    height: 90%;
+    margin-left: 50px;
+}
+.Destination{
+    max-width: 1170px;
+    margin: 80px auto;
+
+}
+.Destination-class-h {
+    color: #131318;
+text-align: center;
+font-size: 40px;
+
+}
+.Destination-class-para{
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-size: 16px;
+
+}
+.row{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+.simple{
+    max-width: 1170px;
+    margin: 80px auto;
+}
+.simple-header{
+    color: #131318;
+font-size: 40px;
+}
+.simple-para{
+    color: #131318;
+font-size: 16px;
+}
+
+
+
+
+
+/* mobile device */
+@media screen and (max-width:600px) {
+
+
+    .banner-content {
+
+
+    
+
+    }
+    .input{
+        flex-direction: column;
+    }
+
+
+}
