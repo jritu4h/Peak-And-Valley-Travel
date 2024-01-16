@@ -5,40 +5,46 @@ body {
 }
 
 /* this is banner */
-nav{
+nav {
     width: 1170px;
     margin: 80px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
 
 }
-.nav-title{
 
-color: #131318;
-font-size: 36px;
+.nav-title {
+
+    color: #131318;
+    font-size: 36px;
 }
-nav > ul {
+
+nav>ul {
     display: flex;
     align-items: center;
 }
-nav  li {
+
+nav li {
     list-style: none;
     margin-right: 50px;
 }
+
 nav a {
     text-decoration: none;
-    color: #424247 ;
+    color: #424247;
+    font-size: 18px;
 }
+
 .banner-content {
     background-image: url("./Images/Group\ 13\ \(1\)\ \(1\).png");
-    width: 1170px;
-height: 500px;
-border-radius: 16px;
-margin: 0 auto;
-    
-    
+    max-width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    margin: 0 auto;
+
+
 }
 
 .title {
@@ -103,171 +109,261 @@ margin: 0 auto;
     text-align: center;
     color: #FFF;
 }
-.popular{
+
+.popular {
     max-width: 1170px;
     max-height: 500px;
     margin: 70px auto;
 }
 
-.popular-class{
+.popular-class {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
-    
+
+
 }
-.popular-header{
+
+.popular-header {
     color: #131318;
-font-size: 40px;
-font-weight: 800;
+    font-size: 40px;
+    font-weight: 800;
 }
-.popular-para{
+
+.popular-para {
     color: rgba(19, 19, 24, 0.70);
-font-size: 16px;
-font-weight: 400;
+    font-size: 16px;
+    font-weight: 400;
 }
-.img-class{
+
+.img-class {
     height: 90%;
     margin-left: 50px;
 }
-.Destination{
+
+.Destination {
     max-width: 1170px;
     margin: 80px auto;
 
 }
+
 .Destination-class-h {
     color: #131318;
-text-align: center;
-font-size: 40px;
+    text-align: center;
+    font-size: 40px;
 
 }
-.Destination-class-para{
+
+.Destination-class-para {
     color: rgba(19, 19, 24, 0.70);
-text-align: center;
-font-size: 16px;
+    text-align: center;
+    font-size: 16px;
 
 }
-.row{
+
+.row {
     display: flex;
     gap: 15px;
     margin-bottom: 20px;
 }
-.simple{
+
+.choose {
+    width: 1170px;
+    height: 850px;
+    margin: 80px auto;
+
+}
+
+.choose-mother {
+    text-align: center;
+}
+
+.choose-class {
+    color: #131318;
+    font-size: 30px;
+}
+
+.choose-para {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+}
+
+.row-card {
+    display: flex;
+    gap: 40px;
+}
+
+.row-div {
+    width: 565px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 36px;
+
+}
+
+.row-card-div {
+    width: 565px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 36px;
+}
+
+.price {
+    width: 565px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 36px;
+    position: relative;
+    top: 30px;
+    left: 250px;
+
+
+}
+
+.simple {
     max-width: 1170px;
     margin: 80px auto;
 }
-.simple-header{
-    color: #131318;
-font-size: 40px;
+
+.simple-mother {
+    display: flex;
+    gap: 40px;
 }
-.simple-para{
+
+.simple-header {
     color: #131318;
-font-size: 16px;
+    font-size: 40px;
 }
-.Newsletter{
+
+.simple-para {
+    color: #131318;
+    font-size: 16px;
+}
+
+.Newsletter {
     max-width: 1170px;
     margin: 80px auto;
 }
-.Newsletter-mother{
+
+.Newsletter-mother {
     display: flex;
     justify-content: space-between;
 }
-.Newsletter-baby{
-width: 474px;
-height: 422px;
-border-radius: 16px;
-border: 1px solid #FF5400;
+
+.Newsletter-baby {
+    width: 474px;
+    height: 422px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
 }
-.Newsletter-header{
+
+.Newsletter-header {
     display: flex;
     color: #131318;
-font-size: 24px;
-justify-content: center;
+    font-size: 24px;
+    justify-content: center;
 
 }
-.Newsletter-para{
+
+.Newsletter-para {
     display: flex;
     color: #5A5A5D;
-font-size: 16px;
-justify-content: center;
+    font-size: 16px;
+    justify-content: center;
 
 }
-.input-head{
+
+.input-head {
     width: 393px;
-height: 1px;
-background: rgba(19, 19, 24, 0.10);
-margin: 10px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+    margin: 10px;
 }
-.name{
+
+.name {
     width: 393px;
-height: 52px;
+    height: 52px;
 
-border-radius: 8px;
-background: rgba(19, 19, 24, 0.05);
-margin: 10px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin: 10px;
 
 
 }
-.email{
 
-  width: 393px;
-height: 52px;
+.email {
 
-border-radius: 8px;
-background: rgba(19, 19, 24, 0.05);
-margin: 10px;
-}
-.sub{
     width: 393px;
-height: 52px;
-border-radius: 8px;
-background: #FF5400;
-color: #FFF;
-margin: 10px;
+    height: 52px;
+
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin: 10px;
 }
-.pic{
+
+.sub {
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    margin: 10px;
+}
+
+.pic {
     width: 672px;
-height: 422px;
-border-radius: 16px;
+    height: 422px;
+    border-radius: 16px;
 }
-.save{
+
+.save {
     width: 324px;
-height: 110px;
-border-radius: 16px;
-background: #FF5400;
-color: #FFF;
-padding: 10px;
-text-align: center;
-position: relative;
-left: 320px;
-bottom: 180px;
-transform: rotate(-19.628deg);
+    height: 110px;
+    border-radius: 16px;
+    background: #FF5400;
+    color: #FFF;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    left: 320px;
+    bottom: 180px;
+    transform: rotate(-19.628deg);
 
 
 }
-footer{
+
+footer {
     max-width: 1170px;
     height: 400px;
     margin: 0 auto;
-background: rgba(19, 19, 24, 0.05);
-text-align: center;
-justify-content: center;
+    background: rgba(19, 19, 24, 0.05);
+    text-align: center;
+    justify-content: center;
 }
-.travel-header{
+
+.travel-header {
     color: var(--Dark-01, #131318);
-font-size: 32px;
-padding-top: 110px;
+    font-size: 32px;
+    padding-top: 110px;
 }
-#group{
+
+#group {
     position: relative;
     top: 18px;
-    
+
 }
-.Rights{
+
+.Rights {
     width: 872px;
-height: 1px;
-background: rgba(19, 19, 24, 0.10);
-margin-left: 60px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+    margin-left: 60px;
 }
 
 
@@ -278,17 +374,16 @@ margin-left: 60px;
 
 /* mobile device */
 @media screen and (max-width:600px) {
-
-
     .banner-content {
-
-
-    
+        max-width: 600px;
 
     }
-    .input{
+    nav , .title , .para,
+    .input {
         flex-direction: column;
     }
+
+
 
 
 }
